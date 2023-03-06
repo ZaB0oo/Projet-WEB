@@ -1,0 +1,147 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(0, 56, 97);
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    font-family: Tahoma; 
+    display: flex;
+}
+
+.topnav a {
+    float: left;
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+  color: rgb(17, 130, 184);
+}
+
+fieldset{
+    border: 0;
+}
+
+.tab table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tab th{
+    text-align: center;
+}
+
+.tab td{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sec1{
+    display: flex;
+    font-family: tahoma;
+ }
+ 
+ .sec2{
+     flex: 1; 
+     padding: 4em;
+     font-size: 22px;
+     font-family: tahoma;
+     text-align: justify;
+ }
+
+ input[type=text], select {
+    width: 400%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[id=message], select {
+    width: 900%;
+    padding: 12px 20px;
+    padding-bottom: 200px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit]{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(0, 56, 97);
+    width: 10%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 15px;
+    border-style: groove;
+    margin-left: 1550px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+input[type=submit]:hover{
+    color: rgb(17, 130, 184);
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
+.map[type=mapp]{
+    text-align: center;
+}
+
+#titre{
+    text-align: center;
+    font-family: tahoma;
+}
+
+#soustitre{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 20px;
+}
+
+#presentation{
+    text-align: left;
+    font-family: tahoma;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+footer{
+    overflow: hidden;
+    font-family: Tahoma; 
+    background-color:  rgb(222, 235, 250);
+    color: rgb(0, 0, 0);
+}
+
+footer a{
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 2em;
+    padding-left: 2em;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+footer a:hover{
+    color: rgb(17, 130, 184);
+}
