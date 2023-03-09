@@ -56,21 +56,6 @@ img {
     border-radius: 16px;
 }
 
-.notif-pilotes h1 {
-    font-family: Tahoma;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 250%;
-    position: relative;
-    line-height: 110%;
-    /* identical to box height, or 143% */
-
-    text-align: center;
-    letter-spacing: -0.015em;
-
-    color: #000000;
-}
-
 .vide{
     color: transparent;
 }
