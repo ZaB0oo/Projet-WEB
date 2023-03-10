@@ -1,0 +1,95 @@
+#formulaire-responsive {
+	max-width:1620px /*-- à modifier en fonction de la largeur désirée --*/;
+	margin:0 auto;
+    width:100%;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+/* faire 2 colonnes */
+
+#general
+{
+    display : flex;
+    justify-content: center;
+}
+
+/* En-tête */
+
+.header {
+    background-color: rgb(0, 56, 97);
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    font-family: Tahoma; 
+    display: flex;
+}
+
+.topnav a {
+    float: left;
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+  color: rgb(17, 130, 184);
+}
+
+/* Body */
+
+label{
+    display:inline-block;
+    float: none;
+    clear : left;
+    width:250px;
+    text-align:right;
+}
+
+input{
+    display:inline-block;
+    float:none;
+}
+
+
+h1{
+    font-size : x-large;
+    text-align : center;
+}
+
+.bt{
+    width:30px;
+}
+
+/* Pied de page */
+
+footer{
+    overflow: hidden;
+    font-family: Tahoma; 
+    background-color:  rgb(222, 235, 250);
+    color: rgb(0, 0, 0);
+}
+
+footer a{
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 2em;
+    padding-left: 2em;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+footer a:hover{
+    color: rgb(17, 130, 184);
+}

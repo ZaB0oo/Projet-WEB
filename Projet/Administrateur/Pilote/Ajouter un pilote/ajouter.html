@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ajouter.css" type="text/css" >
+    <title>Ajouter un pilote</title>
+</head>
+<body>
+    <div id="formulaire-responsive" class="clearfix">
+    
+<!--En-tête-->
+
+    <header class="header">
+        <nav class="topnav">
+            <table>
+                <tr>
+                    <td><img src="logo_worknet.png" alt="Logo du site" width="140px" weith="112px"></td>
+                    <td><a href="">Les offres</a></td>
+                    <td><a href="">Les entreprises</a></td>
+                    <td><a href="authentification.html">Se connecter</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+<!--Body-->
+
+    <h1>Ajouter un pilote</h1>
+
+    <div id="general">
+        <!--1ère colonne-->
+        <div>
+            <p>
+                <!-- Nom-->
+                <label>Nom</label>
+                <input type="text" id="Nom" name="Nom" required>      
+            </p>
+            <p>
+                <!-- Prénom-->
+                <label>Prénom</label>
+                <input type="text" id="Prénom" name="Prénom" required>
+            </p>
+            <p>
+                <!--Centre-->
+                <label for="Centre">Centre</label>
+                <select name="Centre" id="Centre" multiple size="1">
+                        <option>Aix-en-Provence</option>
+                        <option>Angoulême</option>
+                        <option>Arras</option>
+                        <option>Bordeaux</option>
+                        <option>Brest</option>
+                        <option>Caen</option>
+                        <option>Châteauroux</option>
+                        <option>Dijon</option>
+                        <option>Grenoble</option>
+                        <option>La Rochelle</option>
+                        <option>Le Mans</option>
+                        <option>Lille</option>
+                        <option>Lyon</option>
+                        <option>Montpellier</option>
+                        <option>Nancy</option>
+                        <option>Nantes</option>
+                        <option>Nice</option>
+                        <option>Orléans</option>
+                        <option>Paris (La Défense - Nanterre)</option>
+                        <option>Pau</option>
+                        <option>Reims</option>
+                        <option>Rouen</option>
+                        <option>Saint-Nazaire</option>
+                        <option>Strasbourg</option>
+                        <option>Toulouse</option>
+                </select>
+            </p>
+            <p>
+                <!--Promotion(s) assignée(s)-->
+                <label for="Promotion">Promotion(s) assignée(s)</label>
+                <select name="Promotion" id="Promotion" mutiple size="1">
+                    <option>CPI A1</option>
+                    <option>CPI A2</option>
+                    <option>FISA A3</option>
+                    <option>FISA A4</option>
+                    <option>FISA A5</option>
+                    <option>FISE A3</option>
+                    <option>FISE A4</option>
+                    <option>FISE A5</option>
+                </select>
+            </p>
+        </div>
+
+        <!-- 2ème colonne-->
+        <div>
+            <p>
+                <!-- Genre-->
+                <label for="Genre">Genre</label>
+                <select name="Genre" id="Genre" mutiple size="1">
+                    <option>Féminin</option>
+                    <option>Masculin</option>
+                    <option>Autre</option>
+                </select>
+            </p>
+            <p>
+                <!-- Date de naissance-->
+                <label>Date de naissance</label>
+                <input type="date" name="Naissance" required>
+            </p>
+            <p>
+                <!-- Numéro de téléphone-->
+                <label>Numéro de téléphone</label>
+                <input type="number" id="Numéro" name="Numéro" required>
+            </p>
+            <p>
+                <!-- Email-->
+                <label>Adresse mail</label>
+                <input type="email" id="Email" name="Email" required>
+            </p>
+        </div>
+    </div>
+
+<!--Champ MDP-->
+    <div id="general">
+        <p>
+            <!-- Mot de passe-->
+            <label>Mot de passe du pilote</label>
+            <input type="password" id="MDP" name="MDP" required>
+        </p>
+    </div>
+
+<!--Bouton ajouter-->
+    <div id="general">
+        <p>
+            <input type="submit" value="Ajouter">
+        </p>
+    </div>
+
+<!--Pied de page-->
+
+    <footer>
+        <table>
+            <tr>
+                <td><img src="logo_worknet.png" alt="Logo WorkNet"width="80" height="70"></td>
+                <td><a href="apropos.html">A propos</a></td>
+                <td><a href="contact.html">Contact</a></td>
+                <td><a href="">Mentions légales</a></td>
+                <td><a href="">Politique de confidentialité</a></td>
+            </tr>
+        </table> 
+        <td><p>Copyright SLAMM© | © Worknet, Inc. 2023 | Tous droits réservés.</p></td> 
+    </footer>
+    </div>
+</body>
+</html>

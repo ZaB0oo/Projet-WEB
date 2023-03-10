@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ajouter.css" type="text/css" >
+    <title>Ajouter une offre</title>
+</head>
+<body>
+    <div id="formulaire-responsive" class="clearfix">
+    
+<!--En-tête-->
+
+    <header class="header">
+        <nav class="topnav">
+            <table>
+                <tr>
+                    <td><img src="logo_worknet.png" alt="Logo du site" width="140px" weith="112px"></td>
+                    <td><a href="">Les offres</a></td>
+                    <td><a href="">Les entreprises</a></td>
+                    <td><a href="authentification.html">Se connecter</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+<!--Body-->
+
+    <h1>Ajouter une offre</h1>
+
+    <div id="general">
+
+        <!--1ère colonne-->
+        <div>
+            <p>
+                <!-- Nom de l'offre-->
+                <label>Nom de l'offre</label>
+                <input type="text" id="Nom_offre" name="Nom_offre" required>      
+            </p>
+            <p>
+                <!-- Nom de l'entreprise-->
+                <label>Nom de l'entreprise</label>
+                <input type="text" id="Nom_entreprise" name="Nom_entreprise" required>      
+            </p>
+            <p>
+                <!--Localité(s)-->
+                <label for="localites">Localité(s)</label>
+                <select name="localites" id="localites" multiple size="1">
+                    <option>Localite 1</option>
+                    <option>Localite 2</option>
+                </select>
+            </p>
+            <p>
+                <!--Compétence(s) requise(s)-->
+                <label for="Competence">Compétence(s) requise(s)</label>
+                <select name="Competence" id="Competence" multiple size="1">
+                    <option>.NET</option>
+                    <option>Anglais</option>
+                    <option>Back-end</option>
+                    <option>Bases de données</option>
+                    <option>C#</option>
+                    <option>C/C++</option>
+                    <option>Cybersécurité</option>
+                    <option>Front-end</option>
+                    <option>HTML/CSS/Javascript</option>
+                    <option>JAVA</option>
+                    <option>Méthode agile</option>
+                    <option>Outils de CMS, framework, édition de code</option>
+                    <option>PHP</option>
+                    <option>POO</option>
+                    <option>Python</option>
+                    <option>Réseaux</option>
+                    <option>Sens du relationnel</option>
+                    <option>SQL</option>      
+                </select>
+                <!--Bouton + -->
+                <input type="submit" value="+">
+            </p>
+        </div>
+
+        <!-- 2ème colonne-->
+        <div>
+            <p>
+                <!-- Durée du stage-->
+                <label>Durée du stage</label>
+                <input type="text" id="duree" name="duree" required>
+            </p>
+            <p>
+                <!-- Rémunération (€)-->
+                <label>Rémunération (€)</label>
+                <input type="number" name="remuneraion" required>
+            </p>
+            <p>
+                <!-- Nombre de place(s)-->
+                <label>Nombre de place(s)</label>
+                <input type="number" name="places" required>
+            </p>
+        </div>
+    </div>
+
+<!--Bouton ajouter-->
+    <div id="general">
+        <p>
+            <input type="submit" value="Ajouter">
+        </p>
+    </div>
+
+<!--Pied de page-->
+
+    <footer>
+        <table>
+            <tr>
+                <td><img src="logo_worknet.png" alt="Logo WorkNet"width="80" height="70"></td>
+                <td><a href="apropos.html">A propos</a></td>
+                <td><a href="contact.html">Contact</a></td>
+                <td><a href="">Mentions légales</a></td>
+                <td><a href="">Politique de confidentialité</a></td>
+            </tr>
+        </table> 
+        <td><p>Copyright SLAMM© | © Worknet, Inc. 2023 | Tous droits réservés.</p></td> 
+    </footer>
+    </div>
+</body>
+</html>

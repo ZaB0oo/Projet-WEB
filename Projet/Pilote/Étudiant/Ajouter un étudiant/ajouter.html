@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ajouter.css" type="text/css" >
+    <title>Ajouter un étudiant</title>
+</head>
+<body>
+    <div id="formulaire-responsive" class="clearfix">
+    
+<!--En-tête-->
+
+    <header class="header">
+        <nav class="topnav">
+            <table>
+                <tr>
+                    <td><img src="logo_worknet.png" alt="Logo du site" width="140px" weith="112px"></td>
+                    <td><a href="">Les offres</a></td>
+                    <td><a href="">Les entreprises</a></td>
+                    <td><a href="authentification.html">Se connecter</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+<!--Body-->
+
+    <h1>Ajouter un étudiant</h1>
+
+    <section>
+        <!--1ère colonne-->
+        <article>
+            <p>
+                <!-- Nom-->
+                <label>Nom</label>
+                <input type="text" id="Nom" name="Nom" required>      
+            </p>
+            <p>
+                <!-- Prénom-->
+                <label>Prénom</label>
+                <input type="text" id="Prénom" name="Prénom" required>
+            </p>
+            <p>
+                <!--Centre-->
+                <form method="get" >
+                    <label>Centre</label>
+                    <input list="Centre" name="Centre">
+                    <datalist id="Centre">
+                        <option value="Aix-en-Provence" >
+                        <option value="Angoulême">
+                        <option value="Arras">
+                        <option value="Bordeaux" >
+                        <option value="Brest">
+                        <option value="Caen">
+                        <option value="Châteauroux" >
+                        <option value="Dijon">
+                        <option value="Grenoble">
+                        <option value="La Rochelle" >
+                        <option value="Le Mans">
+                        <option value="Lille">
+                        <option value="Lyon" >
+                        <option value="Montpellier">
+                        <option value="Nancy">
+                        <option value="Nantes" >
+                        <option value="Nice">
+                        <option value="Orléans">
+                        <option value="Paris (La Défense - Nanterre)" >
+                        <option value="Pau">
+                        <option value="Reims">
+                        <option value="Rouen" >
+                        <option value="Saint-Nazaire">
+                        <option value="Strasbourg">
+                        <option value="Toulouse">
+                    </datalist>
+                </form>
+            </p>
+            <p>
+                <!--Promotion-->
+                <form method="get" >
+                    <label>Promotion</label>
+                    <input list="Promotion" name="Promotion">
+                    <datalist id="Promotion">
+                        <option value="CPI A1" >
+                        <option value="CPI A2">
+                        <option value="FISA A3">
+                        <option value="FISA A4" >
+                        <option value="FISA A5">
+                        <option value="FISE A3">
+                        <option value="FISE A4" >
+                        <option value="FISE A5">
+                    </datalist>
+                </form>
+            </p>
+        </article>
+
+        <!-- 2ème colonne-->
+        <article>
+            <p>
+                <!-- Genre-->
+                <form method="get" >
+                    <label>Genre</label>
+                    <input list="Genre" name="Genre">
+                    <datalist id="Genre">
+                        <option value="Féminin" >
+                        <option value="Masculin">
+                        <option value="Autre">
+                    </datalist>
+                </form>
+            </p>
+            <p>
+                <!-- Date de naissance-->
+                <label>Date de naissance</label>
+                <input type="date" name="Naissance" required>
+            </p>
+            <p>
+                <!-- Numéro de téléphone-->
+                <label>Numéro de téléphone</label>
+                <input type="number" id="Numéro" name="Numéro" required>
+            </p>
+            <p>
+                <!-- Email-->
+                <label>Adresse mail</label>
+                <input type="email" id="Email" name="Email" required>
+            </p>
+        </article>
+    </section>
+
+<!--Champ MDP-->
+    <section>
+        <p>
+            <!-- Mot de passe-->
+            <label>Mot de passe de l'étudiant</label>
+            <input type="password" id="MDP" name="MDP" required>
+        </p>
+    </section>
+
+<!--Bouton ajouter-->
+    <section>
+        <p>
+            <input type="submit" value="Ajouter">
+        </p>
+    </section>
+
+<!--Pied de page-->
+
+    <footer>
+        <table>
+            <tr>
+                <td><img src="logo_worknet.png" alt="Logo WorkNet"width="80" height="70"></td>
+                <td><a href="apropos.html">A propos</a></td>
+                <td><a href="contact.html">Contact</a></td>
+                <td><a href="">Mentions légales</a></td>
+                <td><a href="">Politique de confidentialité</a></td>
+            </tr>
+        </table> 
+        <td><p>Copyright SLAMM© | © Worknet, Inc. 2023 | Tous droits réservés.</p></td> 
+    </footer>
+    </div>
+</body>
+</html>
