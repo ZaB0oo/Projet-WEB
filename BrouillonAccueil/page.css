@@ -1,0 +1,337 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(0, 56, 97);
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    font-family: Tahoma; 
+    display: flex;
+}
+
+.topnav a {
+    float: left;
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+  color: rgb(17, 130, 184);
+  transition-duration: 300ms;
+}
+
+p{
+    font-size: 17px;
+}
+
+fieldset{
+    border: 0;
+}
+
+.tab table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tab th{
+    text-align: center;
+}
+
+.tab td{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sec1{
+    display: flex;
+    font-family: tahoma;
+ }
+ 
+.sec2{
+    flex: 1; 
+    padding: 4em;
+    font-size: 17px;
+    font-family: tahoma;
+    text-align: justify;
+ }
+
+ /*-------------------------------------*/
+.recherche {  
+    text-align: center;
+}
+
+.commentaire p{
+    font-family: tahoma;
+    color: rgb(0, 0, 0);
+  }
+  
+.commentaire input{
+    padding-right: 400px;
+}
+
+input[id=recherche]{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+ #global{
+    width: 100%;
+ }
+
+ #global #nom{
+    float: left;
+ }
+
+ #global #prenom{
+    margin-left: 60%;
+ }
+/*
+ input[id=nom], select {
+    width: 250%;
+    padding: 12px 0;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}*/
+
+input[id=message], select {
+    width: 900%;
+    padding: 12px 20px;
+    padding-bottom: 200px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(0, 56, 97);
+    width: 10%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 15px;
+    border-style: groove;
+    margin-left: 1550px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+input[type=submit]:hover{
+    color: rgb(17, 130, 184);
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
+.map[type=mapp]{
+    text-align: center;
+}
+
+#titre{
+    text-align: center;
+    font-family: tahoma;
+}
+
+#soustitre{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 20px;
+}
+
+#presentation{
+    text-align: left;
+    font-family: tahoma;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.conf{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.conf li{
+    font-size: 15px;
+}
+
+.conf p{
+    font-size: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgb(222, 235, 250);
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #000000;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+/*==================================================*/
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: rgb(17, 130, 184);
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+/*==================================================*/
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #111111;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: rgb(17, 130, 184);
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.3);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: rgb(17, 130, 184);
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: rgb(17, 130, 184);
+	background-color: #ffffff;
+}
+
+hr{
+    color: rgb(17, 130, 184);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+.recherche{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 800px;
+  }
+  
+  .barre_recherche{
+    width: 100%;
+    max-width: 700px;
+    background: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 5px 20px;
+    border: 2px;
+  }
+
+  .barre_recherche img{
+    width: 30px;
+  }
+  
+  .barre_recherche button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #dfdfdf;
+  }
+
+  .barre_recherche:hover{
+    background: #f3f3f3;
+  }
+
+  .barre_recherche button:hover{
+    background: #e6e6e6;
+  }
+
+  .barre_recherche input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 20px 24px;
+    font-size: 20px;
+  }
+  
+  
+
+

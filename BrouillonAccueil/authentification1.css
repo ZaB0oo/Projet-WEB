@@ -1,0 +1,89 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 56, 97);
+    padding-top: 135px;
+}
+
+.header {
+    background-color: rgb(0, 56, 97);
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    font-family: Tahoma; 
+    display: flex;
+}
+
+.topnav a {
+    float: left;
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+  color: rgb(17, 130, 184);
+}
+
+h1, p{
+    font-family: tahoma;
+}
+
+fieldset{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
+fieldset h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+fieldset input{
+    padding-right: 325px;
+    height: 40px;
+    border-style:double;
+}
+
+#mdplien{
+    padding-left: 300px;
+}
+
+#login{
+    padding-right: 389px;
+    /*text-align: center;*/
+}
+
+#modifier{
+    padding-right: 417px;
+}
+
+footer{
+    overflow: hidden;
+    font-family: Tahoma; 
+    background-color:  rgb(222, 235, 250);
+    color: rgb(0, 0, 0);
+}
+
+footer a{
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 2em;
+    padding-left: 2em;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+footer a:hover{
+    color: rgb(17, 130, 184);
+}

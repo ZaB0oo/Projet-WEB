@@ -1,0 +1,27 @@
+à faire
+==============================================
+page acceuil responsive
+
+page formulaire responsive
+connexion texte centré
+
+=============================================
+SAUVEGARDE 
+---------------------------------------------
+ <fieldset>
+        <fieldset>
+            <div class="sec1">
+                <div class="sec2">
+                    <h1 id="titre">Bonjour User</h1>
+                    <br>
+                    <br>
+                    <div class="recherche">
+                        <b><p>Rechercher des offres</p></b>
+                        <input type="text" id="recherche" name="recherche" required>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </fieldset>
+
+
