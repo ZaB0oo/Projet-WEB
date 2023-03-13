@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page des offres - Etudiant</title>
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <label for="menu-cb" class="menu-label">
+        <svg viewBox="0 0 32 32" fill="white">
+            <rect x="0" y="4" rx="3" ry="3" width="32" height="3" />
+            <rect x="0" y="14" rx="3" ry="3" width="32" height="3" />
+            <rect x="0" y="24" rx="3" ry="3" width="32" height="3" />
+        </svg>
+    </label>
+    <input id="menu-cb" type="checkbox" class="menu-cb">
+    <nav class="menu-nav">
+
+        <ul>
+            <a>Menu</a>
+            <li class="menu-item"><a href="#page1">Mon profil</a></li>
+            <li class="menu-item"><a href="../support/index.html">Support</a></li>
+            <li class="menu-item"><a href="#page3">Déconnexion</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <nav class="topnav">
+            <table>
+                <tr>
+                    <td><img src="images/logo.png" alt="Logo" width="140px" weith="112px"></td>
+                    <td><a href="">Les offres</a></td>
+                    <td><a href="">Les entreprises</a></td>
+                    <td>
+                        <div class="heart"></div>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <h1 class="titre">Bonjour user !</h1>
+                <h2>Rechercher des offres</h2>
+                <article>
+                    <input id="searchbar" type="text" name="search" placeholder="Recherchez une offre...">
+                </article>
+                <br />
+                <h2>Filtres</h2>
+                <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <select id="filter" name="villes">
+                        <option value="">--Sélectionnez une ville--</option>
+                        <option value="ville1">Ville 1</option>
+                        <option value="ville2">Ville 2</option>
+                        <option value="ville3">Ville 3</option>
+                    </select>
+                    <select id="filter" name="secteurs">
+                        <option value="">--Sélectionnez un secteur--</option>
+                        <option value="secteur1">Secteur 1</option>
+                        <option value="secteur2">Secteur 2</option>
+                        <option value="secteur3">Secteur 3</option>
+                    </select>
+                    <button class="btn btn-primary">Ajouter une offre</button>
+                </article>
+            </div>
+            <br>
+            <hr>
+            <div class="row">
+                <h1 class="titre">Offres suggérées</h1>
+                <article>
+                    <div class="slide-container">
+                        <div class="custom-slider fade">
+                            <div class="slide-index">1 / 3</div>
+                            <img class="slide-img" src="images/offre1.png" alt="qwzesxdrcftvgybhun">
+                        </div>
+                        <div class="custom-slider fade">
+                            <div class="slide-index">2 / 3</div>
+                            <img class="slide-img" src="images/offre2.png" alt="qwzesxdrcftvgybhun">
+                        </div>
+                        <div class="custom-slider fade">
+                            <div class="slide-index">3 / 3</div>
+                            <img class="slide-img" src="images/offre3.png" alt="qwzesxdrcftvgybhun">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    <div class="slide-dot">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <img src="images/logo.png" alt="Logo Worknet" width="150" height="100">
+                </div>
+                <div class="footer-col">
+                    <h4>Notre entreprise</h4>
+                    <ul>
+                        <li><a href="apropos.html">A propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="mention.html">Mentions légales</a></li>
+                        <li><a href="politique_conf.html">Politique de confidentialié</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Réseaux</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <hr>
+        <br><br>
+        <div id="copyright">© Worknet, Inc. 2023 | Tous droits réservés.</div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
